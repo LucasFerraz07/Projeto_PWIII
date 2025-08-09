@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ECF0F1;
+}
+
+.header,
+.footer {
+    background-color: #2C3E50;
+}
+
+.form-container {
+    background-color: #F5E6C4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #556B2F;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3a4a20;
+}
+
+.input-field {
+    background-color: #FFFFFF;
+    border: 1px solid #d1d5db;
+}
+
+.input-field:focus {
+    outline: 2px solid #556B2F;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+}
+
+.tab {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab.active {
+    background-color: #F5E6C4;
+    color: #2C3E50;
+    font-weight: 600;
+}
